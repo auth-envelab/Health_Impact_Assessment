@@ -1,0 +1,19 @@
+validation_check,expected_value,observed_value,status,notes
+96 total Supplementary Table S3 rows,96,96,PASS,2 outcomes x 3 pollutants x 8 lags x 2 model types.
+2 outcomes present,2,2,PASS,Heart rate and stress present.
+3 pollutants present,3,3,PASS,"PM1, PM2.5, PM10 present."
+8 prespecified lags present,"[1, 5, 10, 15, 30, 45, 60, 120]","[1, 5, 10, 15, 30, 45, 60, 120]",PASS,No unsupported lags added.
+2 model types present,"['adjusted', 'unadjusted']","['adjusted', 'unadjusted']",PASS,Unadjusted and adjusted models present.
+no unsupported lags,none,[],PASS,Only prespecified lags are exported.
+heart-rate n rows target,10000,[10000],PASS,Target support from current Supplementary Table S3.
+heart-rate n participants target,125,[125],PASS,Target support from current Supplementary Table S3.
+stress n rows target,10000,[10000],PASS,Target support from current Supplementary Table S3.
+stress n participants target,120,[120],PASS,Target support from current Supplementary Table S3.
+all lag models converged or deviations documented,all converged,{'PASS': 96},PASS,Non-convergence appears in convergence audit if present.
+beta per 10 ug/m3 = 10 x beta per 1 ug/m3,all rows,checked in raw result exports,PASS,Raw result exports compute per-10 values directly as 10x per-1 values.
+CI per 10 ug/m3 = 10 x CI per 1 ug/m3,all rows,checked in raw result exports,PASS,Raw result exports compute per-10 CI bounds directly as 10x per-1 bounds.
+zero-formatted p-value display absent,0 occurrences,0,PASS,Small p values are displayed as <0.001.
+p values below 0.001 formatted as <0.001,formatted,checked,PASS,Table export avoids 0.000.
+unadjusted fixed effects match expected,lagged PM only,lagged PM only,PASS,Unadjusted formula is outcome ~ pollutant_lag plus random intercept.
+adjusted fixed effects include expected covariates,city; season; hour; weekend; activity where available,included,PASS,"Adjusted formula includes city, season, hour, weekend, and activity when available."
+random intercept by participant,participant-specific random intercept,participant-specific random intercept,PASS,All models use participant-specific random intercepts.

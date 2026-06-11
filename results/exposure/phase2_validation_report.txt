@@ -1,0 +1,51 @@
+Phase 2 validation report
+timestamp of run: 2026-06-11T16:18:18
+repository path: <local_path_redacted>
+data archive path used: <local_path_redacted>
+campaign-window mode: campaign
+scripts run: scripts\02_build_ppm_common_support_daily_input.py; scripts\02_validate_ppm_common_support_hierarchy.py; scripts\02_validate_hia_exposure_source.py
+
+Target values:
+- PPM personal PM analysis: {'Milan summer n': 54, 'Milan winter n': 45, 'Milan paired n': 32, 'Thessaloniki summer n': 51, 'Thessaloniki winter n': 57, 'Thessaloniki paired n': 34, 'Participant-days/nights/rows': 2431}
+- PPM common-support PM analysis: {'Milan summer n': 54, 'Milan winter n': 45, 'Milan paired n': 32, 'Thessaloniki summer n': 51, 'Thessaloniki winter n': 57, 'Thessaloniki paired n': 34, 'Participant-days/nights/rows': 2427}
+- HIA daily PM input: {'Milan summer n': 54, 'Milan winter n': 45, 'Milan paired n': 32, 'Thessaloniki summer n': 51, 'Thessaloniki winter n': 57, 'Thessaloniki paired n': 34, 'Participant-days/nights/rows': 2427}
+
+Reproduced values:
+- PPM personal PM analysis: Milan Summer n=54, days=526, paired=32; Milan Winter n=45, days=576, paired=32; Thessaloniki Summer n=51, days=709, paired=34; Thessaloniki Winter n=57, days=620, paired=34
+- PPM personal PM common-support analysis: Milan Summer n=54, days=526, paired=32; Milan Winter n=45, days=572, paired=32; Thessaloniki Summer n=51, days=709, paired=34; Thessaloniki Winter n=57, days=620, paired=34
+- HIA daily PM input: Milan Summer n=54, days=526, paired=32; Milan Winter n=45, days=572, paired=32; Thessaloniki Summer n=51, days=709, paired=34; Thessaloniki Winter n=57, days=620, paired=34
+
+PASS/FAIL:
+- PPM personal PM denominator: PASS (PASS: 4)
+- PPM common-support PM denominator: PASS (PASS: 4)
+- HIA daily PM input denominator: PASS (PASS: 4)
+- HIA daily PM input retains 2,427 participant-days: PASS (reproduced=2427)
+- PM hierarchy validation: PASS (PASS: 4; hierarchy-invalid timestamp rows found and excluded=1021927)
+- HIA input uses PPM only: PASS
+- uHoo not used in HIA exposure input: PASS
+- PPM and uHoo not averaged or combined: PASS
+
+Missing dependencies:
+- None for Phase 2 validation.
+
+Deviations from target values:
+- None.
+
+Output files:
+- <local_path_redacted>
+- <local_path_redacted>
+- <local_path_redacted>
+- <local_path_redacted>
+- <local_path_redacted>
+- <local_path_redacted>
+- <local_path_redacted>
+- <local_path_redacted>
+- <local_path_redacted>
+- <local_path_redacted>
+
+Confirmations:
+- No HIA scenario calculations were run.
+- No Phase 3 work was performed.
+- No GitHub push, Git commit, or data upload was performed.
+- Controlled data remained local.
+- Safe outputs do not contain restricted participant identifier values or columns, source member paths, raw timestamps, or row-level Feather-file identifiers.

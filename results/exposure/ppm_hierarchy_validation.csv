@@ -1,0 +1,5 @@
+city,season,timestamp_rows_checked,complete_triplet_rows,pm1_gt_pm25_rows,pm25_gt_pm10_rows,pm1_gt_pm10_rows,any_hierarchy_violation_rows,hierarchy_valid_rows,hierarchy_invalid_rows,hierarchy_rule,status,notes
+Milan,Summer,916278,745536,45771,148150,46278,182399,563137,182399,PM1_PPM <= PM25_PPM <= PM10_PPM,PASS,Complete-triplet accounting validated; hierarchy-invalid timestamp rows were excluded before daily aggregation.
+Milan,Winter,1286706,821911,73808,176170,89975,233795,588116,233795,PM1_PPM <= PM25_PPM <= PM10_PPM,PASS,Complete-triplet accounting validated; hierarchy-invalid timestamp rows were excluded before daily aggregation.
+Thessaloniki,Summer,1469209,1064761,130789,320003,114129,423062,641699,423062,PM1_PPM <= PM25_PPM <= PM10_PPM,PASS,Complete-triplet accounting validated; hierarchy-invalid timestamp rows were excluded before daily aggregation.
+Thessaloniki,Winter,1062891,860722,64696,135236,59995,182671,678051,182671,PM1_PPM <= PM25_PPM <= PM10_PPM,PASS,Complete-triplet accounting validated; hierarchy-invalid timestamp rows were excluded before daily aggregation.

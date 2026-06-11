@@ -1,0 +1,10 @@
+component,pollutant,loading,explained_variance_ratio,status,notes
+PC1,PM1,0.5637901688156052,0.9055732128061122,PASS,PCA fit on standardized complete PM1/PM2.5/PM10 campaign rows; participant-level scores not exported.
+PC1,PM2.5,0.5877704391344325,0.9055732128061122,PASS,PCA fit on standardized complete PM1/PM2.5/PM10 campaign rows; participant-level scores not exported.
+PC1,PM10,0.5802297445207267,0.9055732128061122,PASS,PCA fit on standardized complete PM1/PM2.5/PM10 campaign rows; participant-level scores not exported.
+PC2,PM1,0.8136553114618565,0.06790452266635338,PASS,PCA fit on standardized complete PM1/PM2.5/PM10 campaign rows; participant-level scores not exported.
+PC2,PM2.5,-0.27465751828559426,0.06790452266635338,PASS,PCA fit on standardized complete PM1/PM2.5/PM10 campaign rows; participant-level scores not exported.
+PC2,PM10,-0.5123751377449016,0.06790452266635338,PASS,PCA fit on standardized complete PM1/PM2.5/PM10 campaign rows; participant-level scores not exported.
+PC3,PM1,-0.14179449804833902,0.026522264527534443,PASS,PCA fit on standardized complete PM1/PM2.5/PM10 campaign rows; participant-level scores not exported.
+PC3,PM2.5,0.7609790789035623,0.026522264527534443,PASS,PCA fit on standardized complete PM1/PM2.5/PM10 campaign rows; participant-level scores not exported.
+PC3,PM10,-0.6330917483227094,0.026522264527534443,PASS,PCA fit on standardized complete PM1/PM2.5/PM10 campaign rows; participant-level scores not exported.

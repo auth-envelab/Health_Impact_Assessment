@@ -1,0 +1,58 @@
+Phase 7 sleep/IAQ/PCA/Lasso/stress-sleep validation report
+timestamp of run: 2026-06-11T16:36:21
+repository path: <local_path_redacted>
+data archive path used: not supplied to audit exporter
+campaign-window mode: campaign
+scripts run: scripts\07_reconstruct_garmin_sleep_inputs.py; scripts\07_run_sleep_iaq_ols_models.py; scripts\07_run_sleep_lasso_models.py; scripts\07_run_stress_sleep_mixed_models.py; scripts\07_export_sleep_model_audits.py
+
+Target denominator values:
+- Garmin sleep records/nights target: 1090; reproduced: 1090
+- Sleep + residential uHoo IAQ complete-case rows target: 212; reproduced: 212
+
+PASS/FAIL:
+- Garmin sleep availability denominator: PASS
+- sleep + uHoo IAQ complete-case denominator: PASS
+- sleep efficiency unavailable/not used: PASS
+- wearable-derived field-indicator labelling: PASS
+- PCA loadings export: PASS
+- OLS sleep/IAQ model outputs: PASS
+- Lasso selected-predictor output: PASS
+- Lasso OLS refit output: PASS
+- stress-sleep mixed-model output: PASS
+- Figure 8 aggregate correlation-data output: PASS
+- Figure 9 aggregate plot-data output: PASS
+- Figure 10 aggregate plot-data output: PASS
+- no participant-level safe outputs: PASS
+
+Missing dependencies:
+- None for Phase 7 local reproduction.
+
+Deviations from target denominator values:
+- None.
+
+Deviations from current manuscript model claims:
+- None identified in the aggregate Phase 7 reproduction outputs.
+- Stress-sleep mixed models use sleep/stress complete observations; the 212-row residential uHoo IAQ complete-case denominator is validated separately for sleep/IAQ models.
+
+Output files:
+- analysis_outputs
+- analysis_outputs
+- analysis_outputs
+- analysis_outputs
+- analysis_outputs
+- analysis_outputs
+- analysis_outputs
+- analysis_outputs
+- analysis_outputs
+- analysis_outputs
+- analysis_outputs
+
+Confirmations:
+- No Phase 8 work was performed.
+- No Figure 5-8 final validation/regeneration was performed.
+- No lag-specific HR/stress models were run.
+- No HIA/YLL/upper-tail workflows were run.
+- No paired-season sensitivity was run.
+- No GitHub push, Git commit, or data upload was performed.
+- Controlled data remained local.
+- Safe outputs contain aggregate model results and validation tables only; participant IDs, participant UID columns, source member paths, raw timestamps, row-level Feather-file identifiers, participant-night rows, and model input rows are absent.

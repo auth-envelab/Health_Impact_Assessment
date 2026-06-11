@@ -1,0 +1,2 @@
+analysis_scope,subgroup_variable,subgroup_category,city,season,metric,sensor,source_device,unit,n_unique_participants,n_participant_days_or_nights,mean,median,sd,p25,p75,suppressed,suppression_reason,count_band,status,notes
+overall,none_available,not_applicable,Overall,Overall,not_applicable,not_applicable,not_applicable,,,,,,,,,no,not_applicable,not_applicable,NO_SAFE_SUMMARY_PRODUCED,No harmonized subgroup/context variable with safe join support was available; descriptive subgroup exposure summaries were not produced.

@@ -1,0 +1,19 @@
+city,age_band,mortality_rate_per_100k,mortality_rate_per_person,remaining_life_expectancy,expected_mortality_rate_per_100k,expected_remaining_life_expectancy,status,notes
+Thessaloniki,18-24,27.99,0.0002799,64.1,27.99,64.1,PASS,Matches manuscript Table 4 age-band mortality and remaining life expectancy inputs.
+Thessaloniki,25-30,41.11,0.0004111,57.3,41.11,57.3,PASS,Matches manuscript Table 4 age-band mortality and remaining life expectancy inputs.
+Thessaloniki,31-35,52.9,0.000529,51.4,52.9,51.4,PASS,Matches manuscript Table 4 age-band mortality and remaining life expectancy inputs.
+Thessaloniki,36-40,70.93,0.0007093000000000001,46.6,70.93,46.6,PASS,Matches manuscript Table 4 age-band mortality and remaining life expectancy inputs.
+Thessaloniki,41-45,114.11,0.0011411,41.8,114.11,41.8,PASS,Matches manuscript Table 4 age-band mortality and remaining life expectancy inputs.
+Thessaloniki,46-50,179.85,0.0017985,37.0,179.85,37.0,PASS,Matches manuscript Table 4 age-band mortality and remaining life expectancy inputs.
+Thessaloniki,51-55,327.34,0.0032733999999999997,32.4,327.34,32.4,PASS,Matches manuscript Table 4 age-band mortality and remaining life expectancy inputs.
+Thessaloniki,56-60,514.12,0.0051412,27.9,514.12,27.9,PASS,Matches manuscript Table 4 age-band mortality and remaining life expectancy inputs.
+Thessaloniki,61-65,790.81,0.0079081,23.7,790.81,23.7,PASS,Matches manuscript Table 4 age-band mortality and remaining life expectancy inputs.
+Milan,18-24,23.41,0.0002341,65.9,23.41,65.9,PASS,Matches manuscript Table 4 age-band mortality and remaining life expectancy inputs.
+Milan,25-30,31.66,0.0003166,59.1,31.66,59.1,PASS,Matches manuscript Table 4 age-band mortality and remaining life expectancy inputs.
+Milan,31-35,36.37,0.00036369999999999995,53.2,36.37,53.2,PASS,Matches manuscript Table 4 age-band mortality and remaining life expectancy inputs.
+Milan,36-40,53.41,0.0005340999999999999,48.3,53.41,48.3,PASS,Matches manuscript Table 4 age-band mortality and remaining life expectancy inputs.
+Milan,41-45,88.07,0.0008806999999999999,43.4,88.07,43.4,PASS,Matches manuscript Table 4 age-band mortality and remaining life expectancy inputs.
+Milan,46-50,140.05,0.0014005,38.6,140.05,38.6,PASS,Matches manuscript Table 4 age-band mortality and remaining life expectancy inputs.
+Milan,51-55,228.25,0.0022825,33.9,228.25,33.9,PASS,Matches manuscript Table 4 age-band mortality and remaining life expectancy inputs.
+Milan,56-60,371.72,0.0037172000000000004,29.3,371.72,29.3,PASS,Matches manuscript Table 4 age-band mortality and remaining life expectancy inputs.
+Milan,61-65,596.31,0.0059631,24.8,596.31,24.8,PASS,Matches manuscript Table 4 age-band mortality and remaining life expectancy inputs.

@@ -1,0 +1,6 @@
+Controlled Stage Runtime Report
+
+dry_run: false
+stages_recorded: 10
+stages_blocked_or_failed: 0
+gate_status: PASS

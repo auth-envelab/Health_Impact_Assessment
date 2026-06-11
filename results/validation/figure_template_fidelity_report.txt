@@ -1,0 +1,6 @@
+Figure Template Fidelity Report
+figures_checked: 14
+figures_blocked: 0
+figures_requiring_visual_review: 14
+gate_status: REQUIRES_VISUAL_REVIEW
+POST_RUN_MANUAL_CHECK_REQUIRED = FIGURE_TEMPLATE_VISUAL_REVIEW

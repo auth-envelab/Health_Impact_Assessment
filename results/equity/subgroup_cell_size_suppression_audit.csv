@@ -1,0 +1,2 @@
+subgroup_variable,subgroup_category,city,season,metric_group,min_cell_size,observed_count_band,suppressed,suppression_reason,status,notes
+none_available,not_applicable,Overall,Overall,not_applicable,10,not_applicable,no,no_eligible_subgroup_cells,PASS,No subgroup cells were created because subgroup dependencies were missing.

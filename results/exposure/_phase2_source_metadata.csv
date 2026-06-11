@@ -1,0 +1,2 @@
+data_zip,date_filter_mode,archive_members,ppm_columns_present,uhoo_columns_detected,ppm_personal_total_participant_days,ppm_common_total_participant_days,hierarchy_invalid_rows_total,hierarchy_valid_rows_total
+<local_path_redacted>,campaign,280,"['PM10_PPM', 'PM1_PPM', 'PM25_PPM']","['CO2_uHoo', 'CO_uHoo', 'Humi_uHoo', 'NO2_uHoo', 'O3_uHoo', 'PM25_uHoo', 'TVOC_uHoo', 'Temp_uHoo']",2431,2427,1021927,2471003

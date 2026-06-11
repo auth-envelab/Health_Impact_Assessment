@@ -1,0 +1,5 @@
+Public Candidate Validation Report
+
+checks_evaluated: 1530
+checks_failed: 0
+gate_status: PASS

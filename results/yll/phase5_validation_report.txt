@@ -1,0 +1,52 @@
+Phase 5 YLL validation report
+timestamp of run: 2026-06-11T16:18:52
+repository path: <local_path_redacted>
+data archive path used: <local_path_redacted>
+Phase 2 output path used: <local_path_redacted>
+Phase 3 output path used: <local_path_redacted>
+campaign-window mode: campaign
+scripts run: scripts\05_run_yll_scenarios.py; scripts\05_decompose_pm10_vs_pm25_yll.py; scripts\05_run_yll_conversion_ratio_sensitivity.py; scripts\05_export_figure12_yll_plot_data.py
+
+YLL scenario row count: 8
+
+PASS/FAIL:
+- mortality/all-cause long-term only: PASS
+- age-band mortality-rate validation: PASS
+- remaining-life-expectancy validation: PASS
+- AD formula implementation: PASS (AF x mortality_rate_per_person x 100,000 reference population)
+- YLL formula implementation: PASS (AD_age x remaining_life_expectancy, summed across age bands)
+- PM2.5/PM10 separation: PASS
+- no PM2.5 + PM10 summed output: PASS
+- PM10 > PM2.5 decomposition: PASS
+- conversion-ratio sensitivity: PASS
+- Figure 12 plot data creation: PASS
+- no participant-level safe outputs: PASS (Safe outputs are aggregate-only and contain no forbidden filenames or row-level/sample columns.)
+
+PM10 > PM2.5 YLL reproduced outputs:
+- Milan Winter: PM10 median 9947.85 > PM2.5 median 9142.07; driver=crf_driver
+
+Driver classification summary: {'pm25_higher_or_equal': 3, 'crf_driver': 1}
+
+Missing dependencies:
+- Age-specific city population counts were not available in the local repository/manuscript-approved inputs. YLL uses the legacy per-100,000 age-band reference-population approach rather than invented age distributions.
+
+Deviations from manuscript claims:
+- PM10 > PM2.5 YLL occurs only in 1 of 4 city-season scenarios (Milan Winter); a broad PM10 > PM2.5 pattern is only partially supported.
+
+Output files:
+- <local_path_redacted>
+- <local_path_redacted>
+- <local_path_redacted>
+- <local_path_redacted>
+- <local_path_redacted>
+- <local_path_redacted>
+- <local_path_redacted>
+
+Confirmations:
+- No Phase 6 work was performed.
+- No lag models were run.
+- No sleep models were run.
+- No Figure 5-8 audits were run.
+- No GitHub push, Git commit, or data upload was performed.
+- Controlled data remained local.
+- Safe outputs contain aggregate YLL and validation tables only; participant IDs, participant UID columns, source member paths, raw timestamps, row-level Feather identifiers, participant-day rows, age-by-participant rows, and Monte Carlo iteration-level samples are absent.

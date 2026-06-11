@@ -1,0 +1,11 @@
+stage,status,return_code,log_file,notes
+analysis_denominators,PASS,0,analysis_outputs,Denominator outputs generated.
+personal_pm_common_support,PASS,0,analysis_outputs,Personal PPM support outputs generated.
+hia_primary_scenarios,PASS,0,analysis_outputs,HIA outputs generated.
+yll_scenario_outputs,PASS,0,analysis_outputs,YLL outputs generated.
+lag_specific_heart_rate_stress_models,PASS,0,analysis_outputs,Lag model outputs generated.
+sleep_iaq_and_stress_sleep_models,PASS,0,analysis_outputs,Sleep model outputs generated.
+paired_season_sensitivity,PASS,0,analysis_outputs,Paired-season sensitivity outputs generated.
+manuscript_tables,PASS,0,analysis_outputs,Table outputs generated for the current manuscript scope.
+manuscript_figures,PASS,0,analysis_outputs,Figure generation requires original accepted plotting templates.
+manuscript_output_validation,PASS,0,analysis_outputs,Validation outputs generated.

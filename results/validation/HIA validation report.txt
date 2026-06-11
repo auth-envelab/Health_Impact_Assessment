@@ -1,0 +1,5 @@
+HIA Validation Report
+
+HIA primary scenario summary.csv: PASS
+HIA counterfactual audit.csv: PASS
+HIA upper-tail sensitivity summary.csv: PASS

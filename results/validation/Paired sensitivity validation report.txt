@@ -1,0 +1,6 @@
+Paired Sensitivity Validation Report
+
+Paired PPM seasonal sensitivity.csv: PASS
+Paired uHoo seasonal sensitivity.csv: PASS
+Paired Garmin HR stress sensitivity.csv: PASS
+Paired sleep sensitivity.csv: PASS

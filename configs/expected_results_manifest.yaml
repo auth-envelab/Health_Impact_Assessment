@@ -1,0 +1,26 @@
+validation_gates:
+  ppm_personal_pm_participant_days: 2431
+  ppm_common_support_participant_days: 2427
+  hia_input_participant_days: 2427
+  hia_primary_scenario_rows: 40
+  hia_zero_counterfactual_rows: 0
+  upper_tail_sensitivity_cap_rows: 8
+  yll_rows: 8
+  supplementary_table_s3_rows: 96
+  heart_rate_model_rows: 10000
+  heart_rate_model_participants: 125
+  stress_model_rows: 10000
+  stress_model_participants: 120
+  garmin_sleep_records: 1090
+  sleep_uhoo_complete_case_rows: 212
+  table5_demographic_source: "MISSING_DEPENDENCY unless a controlled demographic source is supplied"
+figure_validation:
+  require_template_reference: true
+  require_template_fidelity: true
+  hia_yll_significance_markers: "not_allowed"
+  p_value_zero_format: "not_allowed"
+public_candidate:
+  require_descriptive_script_names: true
+  require_no_local_paths: true
+  require_deidentified_outputs: true
+  require_checksums: true

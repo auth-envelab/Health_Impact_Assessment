@@ -1,0 +1,5 @@
+city,season,n_participants,participant_days,paired_n_if_city_level,date_min,date_max,source_device,pm_columns,requires_complete_ordered_pm_triplets,target_participants,target_participant_days,status,notes
+Milan,Summer,54,526,32,2019-06-11,2019-07-01,ICARUS PPM personal portable particulate monitor,PM1_PPM;PM25_PPM;PM10_PPM,yes,54,2427,PASS,Validated as final common-support daily personal PPM input; no HIA scenario calculation run.
+Milan,Winter,45,572,32,2019-01-09,2019-02-17,ICARUS PPM personal portable particulate monitor,PM1_PPM;PM25_PPM;PM10_PPM,yes,45,2427,PASS,Validated as final common-support daily personal PPM input; no HIA scenario calculation run.
+Thessaloniki,Summer,51,709,34,2019-06-01,2019-07-29,ICARUS PPM personal portable particulate monitor,PM1_PPM;PM25_PPM;PM10_PPM,yes,51,2427,PASS,Validated as final common-support daily personal PPM input; no HIA scenario calculation run.
+Thessaloniki,Winter,57,620,34,2018-12-16,2019-01-24,ICARUS PPM personal portable particulate monitor,PM1_PPM;PM25_PPM;PM10_PPM,yes,57,2427,PASS,Validated as final common-support daily personal PPM input; no HIA scenario calculation run.

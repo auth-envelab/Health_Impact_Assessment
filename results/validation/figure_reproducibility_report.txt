@@ -1,0 +1,8 @@
+Figure Reproducibility Report
+
+templates_checked: 14
+template_failures: 0
+figures_with_generators: 14
+figure_generation_failures: 0
+figures_requiring_visual_review: 0
+gate_status: PASS

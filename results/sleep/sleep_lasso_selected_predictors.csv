@@ -1,0 +1,8 @@
+outcome,selected_predictor,standardization_applied,lasso_alpha,selection_status,n_rows,n_participants,status,notes
+SleepTotal,Humi_uHoo,True,13.578373145636114,selected,212,33,PASS,Predictors standardized before Lasso selection; participant rows are not exported.
+SleepTotal,PM25_uHoo,True,13.578373145636114,selected,212,33,PASS,Predictors standardized before Lasso selection; participant rows are not exported.
+SleepTotal,CO_uHoo,True,13.578373145636114,selected,212,33,PASS,Predictors standardized before Lasso selection; participant rows are not exported.
+SleepTotal,O3_uHoo,True,13.578373145636114,selected,212,33,PASS,Predictors standardized before Lasso selection; participant rows are not exported.
+SleepLight,,True,0.023646092071285322,no predictors selected,212,33,PASS,Predictors standardized before Lasso selection; participant rows are not exported.
+SleepDeep,,True,0.022505663781779785,no predictors selected,212,33,PASS,Predictors standardized before Lasso selection; participant rows are not exported.
+SleepREM,,True,0.018631187859679408,no predictors selected,212,33,PASS,Predictors standardized before Lasso selection; participant rows are not exported.

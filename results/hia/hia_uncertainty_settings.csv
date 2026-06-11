@@ -1,0 +1,11 @@
+parameter,value,description,status,notes
+n_samples,10000,Monte Carlo/bootstrap iterations.,PASS,Matches expected Phase 3 primary uncertainty setting.
+crf_uncertainty,enabled,RR uncertainty sampled from lognormal distributions using reported 95% CIs.,PASS,Matches expected Phase 3 primary uncertainty setting.
+exposure_distribution_uncertainty,enabled,Long-term rows bootstrap city-season participant means; short-term rows sample participant-day distributions hierarchically.,PASS,Matches expected Phase 3 primary uncertainty setting.
+baseline_rate_cv,0.05,Multiplicative baseline-rate uncertainty coefficient of variation.,PASS,Matches expected Phase 3 primary uncertainty setting.
+population_cv,0.01,Multiplicative population-count uncertainty coefficient of variation.,PASS,Matches expected Phase 3 primary uncertainty setting.
+ppm_measurement_cv,0.1,Multiplicative PPM measurement uncertainty coefficient of variation.,PASS,Matches expected Phase 3 primary uncertainty setting.
+pm25_pm10_ratio_mean,0.65,Mean PM2.5/PM10 ratio for converted CRF rows.,PASS,Matches expected Phase 3 primary uncertainty setting.
+pm25_pm10_ratio_sd,0.1,SD of PM2.5/PM10 ratio for converted CRF rows.,PASS,Matches expected Phase 3 primary uncertainty setting.
+pm25_pm10_ratio_min,0.4,Lower bound for truncated PM2.5/PM10 ratio sampling.,PASS,Matches expected Phase 3 primary uncertainty setting.
+pm25_pm10_ratio_max,0.9,Upper bound for truncated PM2.5/PM10 ratio sampling.,PASS,Matches expected Phase 3 primary uncertainty setting.

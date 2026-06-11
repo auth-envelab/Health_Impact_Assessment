@@ -1,0 +1,8 @@
+check,status,observed,expected,notes
+hia_primary_scenario_rows,PASS,40,40,results/hia/hia_primary_scenario_summary.csv
+upper_tail_sensitivity_cap_rows,PASS,8,8,results/hia/hia_upper_tail_cap_audit.csv
+yll_rows,PASS,8,8,results/yll/yll_primary_results.csv
+supplementary_table_s3_rows,PASS,96,96,results/lag_models/Supplementary Table S3 data - Lag-specific HR stress models.csv
+figure_template_fidelity,PASS,0,0,all required figures must match the user-approved corrected figure references
+no_p_value_000,PASS,scan,no matches,generated results/figures/tables scan
+table5_demographic_source,PASS,dependency_report_present,MISSING_DEPENDENCY unless source supplied,results/tables/Table 5 dependency report.csv

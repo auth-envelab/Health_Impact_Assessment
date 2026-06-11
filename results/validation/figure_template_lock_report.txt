@@ -1,0 +1,7 @@
+Figure Template Lock Report
+
+figures_checked: 14
+figures_blocked: 0
+figures_requiring_post_run_visual_review: 0
+gate_status: READY_FOR_USER_POWERSHELL_RUN
+POST_RUN_MANUAL_CHECK_REQUIRED = FIGURE_TEMPLATE_VISUAL_REVIEW

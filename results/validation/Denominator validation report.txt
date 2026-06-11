@@ -1,0 +1,4 @@
+Denominator Validation Report
+
+Supplementary Table S1 - Analysis-specific denominators.csv: PASS
+Supplementary Figure S1 data - Participant flow and completeness.csv: PASS

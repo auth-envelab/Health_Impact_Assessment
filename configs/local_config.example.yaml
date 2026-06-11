@@ -1,0 +1,13 @@
+# Example local configuration for controlled-data execution.
+# Fill private paths only inside the controlled-data environment.
+paths:
+  harmonized_zip: "<PATH_TO_CONTROLLED_HARMONIZED_DATASET_ZIP>"
+  output_dir: "analysis_outputs"
+  public_candidate_dir: "analysis_outputs"
+runtime:
+  python: "python"
+  n_samples: 10000
+  random_seed: 20260430
+validation:
+  require_template_fidelity: true
+  require_public_candidate_scan: true

@@ -1,0 +1,37 @@
+flow_stage,city,season,n_records,n_participants,n_days_or_nights_or_rows,notes
+harmonized_archive_inventory,Milan,Summer,70,70,,Raw harmonized feather member count; not a demographic enrollment or dropout count.
+table5_demographic_reference,Milan,Summer,63,63,,Current manuscript Table 5 target; not regenerated from harmonized sensor rows.
+harmonized_archive_inventory,Milan,Winter,70,70,,Raw harmonized feather member count; not a demographic enrollment or dropout count.
+table5_demographic_reference,Milan,Winter,89,89,,Current manuscript Table 5 target; not regenerated from harmonized sensor rows.
+harmonized_archive_inventory,Thessaloniki,Summer,70,70,,Raw harmonized feather member count; not a demographic enrollment or dropout count.
+table5_demographic_reference,Thessaloniki,Summer,38,38,,Current manuscript Table 5 target; not regenerated from harmonized sensor rows.
+harmonized_archive_inventory,Thessaloniki,Winter,70,70,,Raw harmonized feather member count; not a demographic enrollment or dropout count.
+table5_demographic_reference,Thessaloniki,Winter,87,87,,Current manuscript Table 5 target; not regenerated from harmonized sensor rows.
+PPM personal PM analysis,Milan,Summer,70,54,526,"Valid support is any non-missing ICARUS PPM PM1, PM2.5, or PM10 value inside the campaign window."
+PPM personal PM analysis,Milan,Winter,70,45,576,"Valid support is any non-missing ICARUS PPM PM1, PM2.5, or PM10 value inside the campaign window."
+PPM personal PM analysis,Thessaloniki,Summer,70,51,709,"Valid support is any non-missing ICARUS PPM PM1, PM2.5, or PM10 value inside the campaign window."
+PPM personal PM analysis,Thessaloniki,Winter,70,57,620,"Valid support is any non-missing ICARUS PPM PM1, PM2.5, or PM10 value inside the campaign window."
+PPM personal PM common-support analysis,Milan,Summer,70,54,526,Valid support requires complete ordered PM1 <= PM2.5 <= PM10 triplets before daily aggregation.
+PPM personal PM common-support analysis,Milan,Winter,70,45,572,Valid support requires complete ordered PM1 <= PM2.5 <= PM10 triplets before daily aggregation.
+PPM personal PM common-support analysis,Thessaloniki,Summer,70,51,709,Valid support requires complete ordered PM1 <= PM2.5 <= PM10 triplets before daily aggregation.
+PPM personal PM common-support analysis,Thessaloniki,Winter,70,57,620,Valid support requires complete ordered PM1 <= PM2.5 <= PM10 triplets before daily aggregation.
+uHoo residential IAQ analysis,Milan,Summer,70,28,316,Valid support is any non-missing uHoo residential IAQ value inside the campaign window.
+uHoo residential IAQ analysis,Milan,Winter,70,38,638,Valid support is any non-missing uHoo residential IAQ value inside the campaign window.
+uHoo residential IAQ analysis,Thessaloniki,Summer,70,21,396,Valid support is any non-missing uHoo residential IAQ value inside the campaign window.
+uHoo residential IAQ analysis,Thessaloniki,Winter,70,18,360,Valid support is any non-missing uHoo residential IAQ value inside the campaign window.
+Garmin heart-rate/stress analysis,Milan,Summer,70,55,539,Valid support is non-missing average heart rate or stress after applying the current heart-rate plausibility filter.
+Garmin heart-rate/stress analysis,Milan,Winter,70,59,741,Valid support is non-missing average heart rate or stress after applying the current heart-rate plausibility filter.
+Garmin heart-rate/stress analysis,Thessaloniki,Summer,70,58,826,Valid support is non-missing average heart rate or stress after applying the current heart-rate plausibility filter.
+Garmin heart-rate/stress analysis,Thessaloniki,Winter,70,40,382,Valid support is non-missing average heart rate or stress after applying the current heart-rate plausibility filter.
+Garmin sleep data availability,Milan,Summer,70,44,277,Sleep stages are reconstructed from harmonized rows; sleep efficiency is unavailable and is not counted.
+Garmin sleep data availability,Milan,Winter,70,50,299,Sleep stages are reconstructed from harmonized rows; sleep efficiency is unavailable and is not counted.
+Garmin sleep data availability,Thessaloniki,Summer,70,55,309,Sleep stages are reconstructed from harmonized rows; sleep efficiency is unavailable and is not counted.
+Garmin sleep data availability,Thessaloniki,Winter,70,33,205,Sleep stages are reconstructed from harmonized rows; sleep efficiency is unavailable and is not counted.
+Garmin sleep + residential IAQ complete-case model input,Milan,Summer,70,8,39,Complete cases require sleep Total/Light/Deep/REM plus all currently available uHoo residential IAQ predictors.
+Garmin sleep + residential IAQ complete-case model input,Milan,Winter,70,23,128,Complete cases require sleep Total/Light/Deep/REM plus all currently available uHoo residential IAQ predictors.
+Garmin sleep + residential IAQ complete-case model input,Thessaloniki,Summer,70,3,11,Complete cases require sleep Total/Light/Deep/REM plus all currently available uHoo residential IAQ predictors.
+Garmin sleep + residential IAQ complete-case model input,Thessaloniki,Winter,70,6,34,Complete cases require sleep Total/Light/Deep/REM plus all currently available uHoo residential IAQ predictors.
+HIA daily PM input,Milan,Summer,70,54,526,Matches the common-support daily personal PPM input used for scenario-based HIA.
+HIA daily PM input,Milan,Winter,70,45,572,Matches the common-support daily personal PPM input used for scenario-based HIA.
+HIA daily PM input,Thessaloniki,Summer,70,51,709,Matches the common-support daily personal PPM input used for scenario-based HIA.
+HIA daily PM input,Thessaloniki,Winter,70,57,620,Matches the common-support daily personal PPM input used for scenario-based HIA.

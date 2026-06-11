@@ -1,0 +1,4 @@
+Table Output Validation Report
+
+Table 5 dependency report.csv: PASS
+Supplementary Table S6 - Descriptive statistics by city and season.xlsx: PASS

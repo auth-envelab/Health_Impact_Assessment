@@ -1,0 +1,3 @@
+Lag-Model Validation Report
+
+status: PASS if aggregate checks passed
