@@ -1,2 +1,2 @@
 file_checked,term_checked,occurrences,allowed_context,status,notes
-descriptive runtime module set,DLNM/cross-basis terminology,0,no numbered script scan inputs present,PASS,Clean runtime excludes numbered scripts; Phase 6 uses prespecified lag-specific mixed-effects models.
+descriptive runtime module set,DLNM/cross-basis terminology,0,no numbered script scan inputs present,PASS,Clean runtime excludes numbered scripts; lag-model uses prespecified lag-specific mixed-effects models.

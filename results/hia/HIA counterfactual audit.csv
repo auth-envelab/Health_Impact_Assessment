@@ -1,5 +1,5 @@
 pollutant,framework,counterfactual_ug_m3,averaging_time,basis,expected_counterfactual_ug_m3,status,notes
-PM2.5,long_term,5.0,annual_mean,WHO 2021 annual AQG,5.0,PASS,WHO 2021 primary counterfactual; zero-counterfactual sensitivity is not run in Phase 3.
-PM10,long_term,15.0,annual_mean,WHO 2021 annual AQG,15.0,PASS,WHO 2021 primary counterfactual; zero-counterfactual sensitivity is not run in Phase 3.
-PM2.5,short_term,15.0,24_hour_mean,WHO 2021 24-hour AQG,15.0,PASS,WHO 2021 primary counterfactual; zero-counterfactual sensitivity is not run in Phase 3.
-PM10,short_term,45.0,24_hour_mean,WHO 2021 24-hour AQG,45.0,PASS,WHO 2021 primary counterfactual; zero-counterfactual sensitivity is not run in Phase 3.
+PM2.5,long_term,5.0,annual_mean,WHO 2021 annual AQG,5.0,PASS,WHO 2021 primary counterfactual; zero-counterfactual sensitivity is not included in this public aggregate output.
+PM10,long_term,15.0,annual_mean,WHO 2021 annual AQG,15.0,PASS,WHO 2021 primary counterfactual; zero-counterfactual sensitivity is not included in this public aggregate output.
+PM2.5,short_term,15.0,24_hour_mean,WHO 2021 24-hour AQG,15.0,PASS,WHO 2021 primary counterfactual; zero-counterfactual sensitivity is not included in this public aggregate output.
+PM10,short_term,45.0,24_hour_mean,WHO 2021 24-hour AQG,45.0,PASS,WHO 2021 primary counterfactual; zero-counterfactual sensitivity is not included in this public aggregate output.

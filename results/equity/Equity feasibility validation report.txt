@@ -1,0 +1,11 @@
+Equity Feasibility Validation Report
+
+status: PASS
+scope: Public aggregate equity feasibility outputs are included for review.
+data_safety: Row-level individual records, direct personal identifiers, time-stamped raw observations, source-file traces, and controlled input files are not included.
+outputs_checked:
+- Equity feasibility summary.csv
+- equity_analysis_feasibility_summary.csv
+- equity_descriptive_exposure_summary.csv
+- equity_variable_availability_audit.csv
+- subgroup_cell_size_suppression_audit.csv

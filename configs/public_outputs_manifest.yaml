@@ -31,4 +31,3 @@ public_candidate:
     - "results/**/Supplementary Table S7*"
     - "tables/**/Supplementary Table S7*"
     - "scripts/[0-9][0-9]_*.py"
-    - "scripts/phase*.py"

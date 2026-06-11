@@ -270,9 +270,37 @@ def write_checksums(candidate: Path) -> None:
 
 
 def write_placeholders(candidate: Path) -> None:
-    (candidate / "README.md").write_text("# RAISE/ICARUS Manuscript Analysis Workflow\n\nThis candidate contains descriptive workflow entrypoints, documentation, validation reports, regenerated public figures, and aggregate outputs. The controlled harmonized dataset is not included.\n", encoding="utf-8")
-    (candidate / "LICENSE_PLACEHOLDER.txt").write_text("License terms will be supplied before release.\n", encoding="utf-8")
-    (candidate / "CITATION_PLACEHOLDER.cff").write_text("cff-version: 1.2.0\nmessage: Citation metadata will be supplied before release.\n", encoding="utf-8")
+    readme = candidate / "README.md"
+    if not readme.exists():
+        readme.write_text(
+            "# RAISE/ICARUS Manuscript Analysis Workflow\n\n"
+            "This candidate contains descriptive workflow entrypoints, documentation, validation reports, "
+            "final approved manuscript figure artifacts, and aggregate outputs. The controlled harmonized "
+            "dataset and participant-level data are not included.\n",
+            encoding="utf-8",
+        )
+    license_file = candidate / "LICENSE"
+    if not license_file.exists():
+        license_file.write_text(
+            "MIT License\n\n"
+            "Copyright (c) 2026 The Authors\n\n"
+            "Permission is hereby granted, free of charge, to any person obtaining a copy\n"
+            "of this software and associated documentation files (the \"Software\"), to deal\n"
+            "in the Software without restriction, including without limitation the rights\n"
+            "to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n"
+            "copies of the Software, and to permit persons to whom the Software is\n"
+            "furnished to do so, subject to the following conditions:\n\n"
+            "The above copyright notice and this permission notice shall be included in all\n"
+            "copies or substantial portions of the Software.\n\n"
+            "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n"
+            "IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n"
+            "FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n"
+            "AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n"
+            "LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n"
+            "OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n"
+            "SOFTWARE.\n",
+            encoding="utf-8",
+        )
 
 
 def _approved_reference_candidate_path(figure_id: str) -> str:
